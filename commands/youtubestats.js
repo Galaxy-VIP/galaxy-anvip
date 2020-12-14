@@ -1,6 +1,6 @@
 const fetch = require("node-superfetch"); // npm install node-superfetch
 const Discord = require("discord.js");
-const google = "AIzaSyCkAb5vwazrsfwEJBsa-0KdMb8c2yjyFm4"
+const google = "your-youtube-api-key"
 module.exports = {
   name: "Youtube Stats", 
   description: "Showing information channel user",
