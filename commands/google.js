@@ -7,8 +7,8 @@ module.exports = {
   usage: "v.google <query>",
   run: async (client, message, args) => {
     if(!message.channel.nsfw) return message.channel.send("This command can only be used on NSFW channels") 
-    let googlekey = "AIzaSyCBb6w6lx-08t4lL8psB51-n5QtytBk00w"
-    let csx = "885bba9add3fa2e14"
+    let googlekey = "your-google-key"
+    let csx = "your-google-csx"
     let query = args.join(" ")
     let result;
     
