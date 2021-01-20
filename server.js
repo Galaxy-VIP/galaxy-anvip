@@ -19,7 +19,7 @@ client.queue = new Map()
 const { CanvasSenpai } = require('canvas-senpai')
 const canva = new CanvasSenpai()
 const DBL = require("dblapi.js");
-const dbl = new DBL('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijc1NTQ2MTU1NjIwNDIwODI1OSIsImJvdCI6dHJ1ZSwiaWF0IjoxNjA1OTYzNzE0fQ.4C8VDPAeW6IWJy2QG6VZ3VwcUB4ZEpVbup5ILZFuXOY', client);
+const dbl = new DBL('YOUR_DBL_KEY', client);
 const { inspect } = require("util")
 const { GiveawaysManager } = require('discord-giveaways');
 
